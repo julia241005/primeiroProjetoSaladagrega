@@ -1,0 +1,89 @@
+/*1. Estilos gerais para a pagina*/
+/* Reset CSS */
+
+/* Reset CSS básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body {
+    height: 100%;
+}
+
+body{ 
+    line-height: 1;
+    font-family: sans-serif;
+}
+ol,ul {
+    list-style: none;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 2.Espaço utilizado para criar nosso card */
+body{
+    font-family: 'Georgia' , serif; /*Uma fonte um pouco mais elegante para receitas */
+    background-color: yellow; /* Um tom suave de cinza para o fundo*/
+    color: #333; /* Cor de texto escura para boa legibilidade */
+
+    display: flex; /* Usando Flexblox para centralizar o card*/
+    justify-content: center; /* Centralizar horrizontalmente */
+    align-items: center;
+    min-height: 100vh; /*Garante que o corpo ocupe a aultura total da viewport */
+    margin: 0;
+
+}
+
+/* 3. Estilizar o card da receita */
+.recipe-card{
+    width: 350px; /*Largura fixa para o card*/
+    background-color: #fff; /* Fundo branco para o card*/
+    border-radius: 15px; /*Bordas arredondadas em 15px*/
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /*Sombra suave para dar profundidade*/
+    overflow: hidden;
+}
+
+/* 4. Estilizar a imagem da receita- Nosso foco principal*/
+.recipe-image{
+    width: 100%; 
+    display: block;
+
+}
+
+/*5. Estilizar o conteúdo da receita  (titulo,*/
+.recipe-content{  
+     padding: 25px;
+
+}
+
+.recipe-title{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #27ae60;
+
+}
+
+/*6. Estilizar o titulo da receita*/
+.recipe-title{
+    font-size:1.5rem;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color:aqua
+
+
+}
+
+/*7. Estilizar a seção de descrição*/
+.recipe-description{
+     font-size: 1rem;
+     line-height: 1.6;
+     color:#666;
+     margin-bottom: 20px;
+}
